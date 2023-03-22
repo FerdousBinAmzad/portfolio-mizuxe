@@ -1,0 +1,67 @@
+.navbar {
+  background: #fff;
+  opacity: 0.6;
+  box-shadow: 2px 2px 5px #413fc4; }
+  .navbar .nav-item {
+    text-transform: capitalize;
+    font-size: x-large;
+    padding-right: 1rem; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #150766;
+      background: #78d40f; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#homeSection {
+  background-image: url("../img/home3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: 85px;
+  position: relative;
+  min-height: 600px; }
+  #homeSection .dark-overlay {
+    background: rgba(26, 14, 14, 0.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding-top: 100px;
+    min-height: 600px; }
+  #homeSection #opacity {
+    opacity: 0.8; }
+
+#subscribeArea {
+  background: #000; }
+
+#boxArea .card {
+  box-shadow: 5px 5px 9px #150766; }
+
+#boxArea .card:hover {
+  background: #1cc416;
+  color: #36238a; }
+
+#aboutBookSection .card:hover {
+  background: #8875c7;
+  color: #fff; }
+
+#authorsSection img {
+  margin-top: -75px; }
+
+#authorsSection .card:hover {
+  background: #7776b1;
+  color: #fff; }
+  #authorsSection .card:hover .fa {
+    color: #fff; }
+
+#authorsSection .fa {
+  font-size: 25px; }
+
+#footerSection {
+  background: #000; }
+
+@media (max-width: 480px) {
+  #homeSection h2 {
+    font-size: 60px; } }
